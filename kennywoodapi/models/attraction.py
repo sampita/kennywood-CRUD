@@ -1,4 +1,5 @@
 from django.db import models
+#import for Foreign Key: ParkArea
 from .parkarea import ParkArea
 
 class Attraction(models.Model):
